@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+    
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+   background-image:url('bg2.jpg');
+   background-repeat: no-repeat;
+  
+   background-size: cover;  
+}
+
+h1 {
+    color:plum ;
+    text-align: center;
+    font-display: bold;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.question {
+    margin: 20px;
+    background-color:plum ;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    color: pink;
+}
+
+button {
+    background-color:deeppink;
+   color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: plum;
+}
+
+#registration-page{
+    
+    color: plum;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#results-page {
+    display: none;
+    color: rgb(224, 49, 224);
+    font-family: cursive;
+    font-size: 30px ;
+    
+    
+}
+
+#personality-type {
+    font-size: 40px;
+    color: #ed4dff;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    
+    text-shadow: 
+        -1.5px -1.5px 0 #000, /* Top-left shadow (adjust the offsets and color as needed) */
+         1.5px -1.5px 0 #000, /* Top-right shadow */
+        -1.5px  1.5px 0 #000, /* Bottom-left shadow */
+         1.5px  1.5px 0 #000;
+
+}
+
+a{
+    color: plum;;
+}
+a:hover{
+    color: blue;
+}
+
+/* Fun styles */
+#test-page {
+    background-color:darkmagenta;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.fun-image {
+    max-width: 60%;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
